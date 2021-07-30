@@ -94,7 +94,8 @@ func (connection *bigQueryConnection) Exec(query string, args []driver.Value) (d
 	return statement.Exec(args)
 }
 
-func (bigQueryConnection) CheckNamedValue(*driver.NamedValue) error {
-	// TODO: Revise in the future
-	return nil
-}
+// NOTE(Yvette): comment out this function so that the defaulCheckNamedValue function from database/sql/convert.go will be used instead
+//func (bigQueryConnection) CheckNamedValue(*driver.NamedValue) error {
+//	// TODO: Revise in the future
+//	return nil
+//}
