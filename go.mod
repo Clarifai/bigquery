@@ -10,5 +10,3 @@ require (
 	gorm.io/driver/bigquery v1.0.16
 	gorm.io/gorm v1.20.2
 )
-
-replace gorm.io/driver/bigquery v1.0.16 => github.com/YvetteZ2017/bigquery v1.0.16
