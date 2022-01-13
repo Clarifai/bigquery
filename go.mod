@@ -1,4 +1,4 @@
-module github.com/YvetteZ2017/bigquery
+module github.com/Clarifai/bigquery
 
 go 1.14
 
